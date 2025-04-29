@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  background-color: white;
+
+}
+.name{
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  
+}
+a{
+  text-decoration: none;
+  font-size: 2vh;
+}
