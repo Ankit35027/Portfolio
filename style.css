@@ -8,16 +8,102 @@ body{
   align-items: center;
   justify-content: space-between;
   padding: 0 2vw;
-  background-color: white;
+  background-color: black;
 
 }
 .name{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   gap: 1vw;
   align-items: center;
-  
+
 }
 a{
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 2vw;
+  color: rgba(0, 191, 255, 0.828);
+  font-style: italic;
+  font-weight: 400;
+}
+
+video{
+  height:40vw;
+  width: 100vw;
+  object-fit: fill;
+}
+.port{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color:white;
+  font-size: 3vh;
+  margin-top: 0;
+}
+h1:hover{
+  color: rgb(0, 191, 255,1);
+}
+.Bio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4vw;
+  border: 2px solid white;
+  border-radius: 2vw;
+  padding: 0 2vw;
+  margin-top: 6vw;
+}
+.title{
+  color: gray;
+  text-decoration: underline;
+  font-size: 3vw;
+}
+.description{
+  color: white;
+  margin-bottom: 3vw;
+  font-size: 2vw;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 0;
+  gap: 10vw;
+}
+.Skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  background-color: white;
+  width: 30vw;
+  height: 76vh;
+
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 1.5vw;
+  font-size: 2vw;
+}
+#s{
+  text-decoration: underline;
+  font-size: 4vw;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2vw;
+  background-color: white;
+  width: 30vw;
+  list-style: none;
+  height: 76vh;
+
 }
